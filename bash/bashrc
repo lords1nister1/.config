@@ -5,7 +5,6 @@ eval "$(starship init bash)"
 GREY=$(tput setaf 242)
 RED=$(tput setaf 1)
 RESET=$(tput sgr0)
-
 alias ls='eza --icons'
 alias cat='bat'
 alias e='exit'
