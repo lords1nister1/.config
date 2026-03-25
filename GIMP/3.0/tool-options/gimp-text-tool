@@ -1,8 +1,13 @@
 # GIMP gimp-text-tool options
 
 (foreground
-    (color "R'G'B'A u8" 4 "\62\72\136\377" 0))
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
 (palette "Color History")
 (font "Sans-serif")
+(font-size 8192)
+(hint-style full)
+(justify fill)
+(indent 8)
+(box-mode fixed)
 
 # end of gimp-text-tool options

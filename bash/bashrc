@@ -1,10 +1,11 @@
 fastfetch
-
 eval "$(starship init bash)"
-
 GREY=$(tput setaf 242)
 RED=$(tput setaf 1)
 RESET=$(tput sgr0)
+cd ~/nixos && git add . && git commit -m "Automated commit" && git push
+cd ~/.config && git add . && git commit -m "Automated commit" && git push
+
 alias ls='eza --icons'
 alias cat='bat'
 alias e='exit'
@@ -15,6 +16,7 @@ alias home='cd ~'
 alias dl='cd ~/Downloads'
 alias cf='cd ~/.config'
 alias n='cd ~/nixos/'
+alias wallpaper='cp ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/.local/share/wallpapers'
 alias gu='git add .'
 alias gp='git push'
 alias gup='git add . && git commit -m "commit number idk" && git push'
@@ -22,7 +24,7 @@ alias f='nvim ~/nixos/flake.nix'
 alias c='nvim ~/nixos/configuration.nix'
 alias nixtest='sudo nixos-rebuild test'
 alias nixreboot='sudo nixos-rebuild switch --rollback'
-alias rebuild='sudo nixos-rebuild switch --flake .#nixos'
+alias rb='sudo nixos-rebuild switch --flake .#nixos'
 alias gens='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
 alias cg='sudo nix-collect-garbage'
 alias ns='nix-search'
@@ -38,6 +40,7 @@ alias fishy='asciiquarium'
 alias pipes='pipes-rs'
 alias pg='ping google.com'
 alias sf='superfile'
-alias bash='sudo nvim ~/.bashrc'
+alias b='sudo nvim ~/.bashrc'
 alias bt='systemd-analyze'
-alias sbash='source ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias ssh='ssh raspberrypi4.local'

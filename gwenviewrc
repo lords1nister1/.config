@@ -1,2 +1,27 @@
+[FullScreen]
+FullScreenModeActive=true
+
+[General]
+LastUsedVersion=210800
+
 [MainWindow]
 MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/j3rv35.png
+File2[$e]=/run/media/user/3037-3938/DCIM/100GOPRO/GOPR0321.JPG
+File3[$e]=/run/media/user/3037-3938/DCIM/100GOPRO/GOPR0354.JPG
+File4[$e]=/run/media/user/3037-3938/DCIM/100GOPRO/GOPR0456.JPG
+File5[$e]=/run/media/user/3037-3938/DCIM/100GOPRO/GX010886.THM
+File6[$e]=/run/media/user/3037-3938/DCIM/100GOPRO/GX010887.THM
+File7[$e]=$HOME/Pictures/image.png
+Name1[$e]=j3rv35.png
+Name2[$e]=GOPR0321.JPG
+Name3[$e]=GOPR0354.JPG
+Name4[$e]=GOPR0456.JPG
+Name5[$e]=GX010886.THM
+Name6[$e]=GX010887.THM
+Name7[$e]=image.png
+
+[SideBar]
+InformationSplitterSizes=211,244

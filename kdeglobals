@@ -134,9 +134,13 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
+TerminalApplication=kitty
+TerminalService=kitty.desktop
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowIconsInMenuItems=false
+ShowIconsOnPushButtons=false
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -158,6 +162,10 @@ View Style=DetailTree
 [Sounds]
 Enable=false
 Theme=
+
+[Toolbar style]
+ToolButtonStyle=NoText
+ToolButtonStyleOtherToolbars=NoText
 
 [WM]
 activeBackground=39,44,49

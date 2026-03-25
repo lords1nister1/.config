@@ -12,13 +12,13 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 0 0)
-    (size 1699 1059)
+    (size 1707 1043)
     (monitor 0)
     (open-on-exit)
     (aux-info
         (left-docks-width "188")
-        (right-docks-width "231")
-        (maximized "no"))
+        (right-docks-width "232")
+        (maximized "yes"))
     (gimp-toolbox
         (side left)
         (book
@@ -42,7 +42,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 5)
             (dockable "gimp-brush-grid"
                 (tab-style icon)
                 (aux-info
@@ -58,9 +58,20 @@
             (dockable "gimp-document-list"
                 (tab-style icon)
                 (aux-info
-                    (show-button-bar "true"))))
+                    (show-button-bar "true")))
+            (dockable "gimp-brush-editor"
+                (tab-style icon)
+                (aux-info
+                    (edit-active "true")
+                    (current-data "2. Hardness 075")))
+            (dockable "gimp-gradient-editor"
+                (tab-style icon)
+                (aux-info
+                    (show-button-bar "true")
+                    (edit-active "true")
+                    (current-data "Sunrise"))))
         (book
-            (position 336)
+            (position 365)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -86,6 +97,15 @@
     (factory-entry "gimp-file-save-dialog")
     (position 26 23)
     (size 1244 869)
+    (monitor 0))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 26 23)
+    (monitor 0))
+(session-info "toplevel"
+    (factory-entry "gimp-text-tool-dialog")
+    (position 26 23)
+    (size 847 1012)
     (monitor 0))
 
 (hide-docks no)
