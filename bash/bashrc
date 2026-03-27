@@ -3,10 +3,13 @@ eval "$(starship init bash)"
 GREY=$(tput setaf 242)
 RED=$(tput setaf 1)
 RESET=$(tput sgr0)
-cd ~/nixos && git add . && git commit -m "Automated commit" && git push
-cd ~/.config && git add . && git commit -m "Automated commit" && git push
-cd ~
-
+ 
+# cd ~/nixos && git add . && git commit -m "Automated commit" && git push
+# cd ~/.config && git add . && git commit -m "Automated commit" && git push
+# cd ~
+#
+#
+alias commit='cd ~/nixos && git add . && git commit -m "Automated commit" && git push && cd ~/.config && git add . && git commit -m "Automated commit" && git push'
 alias ls='eza --icons'
 alias cat='bat'
 alias e='exit'
@@ -20,7 +23,6 @@ alias n='cd ~/nixos/'
 alias wallpaper='cp ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/.local/share/wallpapers'
 alias gu='git add .'
 alias gp='git push'
-alias gup='git add . && git commit -m "commit number idk" && git push'
 alias f='nvim ~/nixos/flake.nix'
 alias c='nvim ~/nixos/configuration.nix'
 alias nixtest='sudo nixos-rebuild test'
@@ -44,4 +46,3 @@ alias sf='superfile'
 alias b='sudo nvim ~/.bashrc'
 alias bt='systemd-analyze'
 alias sb='source ~/.bashrc'
-alias ssh='ssh raspberrypi4.local'
