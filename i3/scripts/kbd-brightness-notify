@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+brightnessctl -d smc::kbd_backlight set "$1"
+level=$(brightnessctl -d smc::kbd_backlight -m | cut -d, -f4)
+dunstify "Keyboard Brightness" "$level"

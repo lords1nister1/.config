@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+brightnessctl -d intel_backlight set "$1"
+level=$(brightnessctl -d intel_backlight -m | cut -d, -f4)
+dunstify "Brightness" "$level"

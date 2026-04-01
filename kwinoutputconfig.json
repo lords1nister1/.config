@@ -37,47 +37,8 @@
                 "sdrGamutWideness": 0,
                 "sharpness": 0,
                 "transform": "Normal",
-                "uuid": "3dec7a96-2995-4d96-9421-ffb5a98c43fa",
-                "vrrPolicy": "Never",
-                "wideColorGamut": false
-            },
-            {
-                "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": true,
-                "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "autoRotation": "InTabletMode",
-                "automaticBrightness": false,
-                "brightness": 1,
-                "colorPowerTradeoff": "PreferEfficiency",
-                "colorProfileSource": "sRGB",
-                "connectorName": "HDMI-A-2",
-                "detectedDdcCi": false,
-                "edidHash": "689270917779e7b1e265157a23cf651e",
-                "edidIdentifier": "QMX 9249 16843009 0 2009 0",
-                "edrPolicy": "always",
-                "highDynamicRange": false,
-                "iccProfilePath": "",
-                "mode": {
-                    "height": 1080,
-                    "refreshRate": 60000,
-                    "width": 1920
-                },
-                "overscan": 0,
-                "rgbRange": "Automatic",
-                "scale": 0.9833333333333333,
-                "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
-                "sharpness": 0,
-                "transform": "Normal",
-                "uuid": "c52c523f-1c68-493a-8859-a5661fbd5935",
-                "vrrPolicy": "Never",
+                "uuid": "7ed0b7a1-bc51-4a59-a6e3-09d5e71eac4b",
+                "vrrPolicy": "Automatic",
                 "wideColorGamut": false
             }
         ],
@@ -96,71 +57,6 @@
                             "y": 0
                         },
                         "priority": 1,
-                        "replicationSource": ""
-                    }
-                ]
-            },
-            {
-                "lidClosed": false,
-                "outputs": [
-                    {
-                        "enabled": true,
-                        "outputIndex": 0,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 1,
-                        "replicationSource": ""
-                    },
-                    {
-                        "enabled": true,
-                        "outputIndex": 1,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 0,
-                        "replicationSource": ""
-                    }
-                ]
-            },
-            {
-                "lidClosed": true,
-                "outputs": [
-                    {
-                        "enabled": false,
-                        "outputIndex": 0,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": -1,
-                        "replicationSource": ""
-                    },
-                    {
-                        "enabled": true,
-                        "outputIndex": 1,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 0,
-                        "replicationSource": "3dec7a96-2995-4d96-9421-ffb5a98c43fa"
-                    }
-                ]
-            },
-            {
-                "lidClosed": true,
-                "outputs": [
-                    {
-                        "enabled": true,
-                        "outputIndex": 0,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 0,
                         "replicationSource": ""
                     }
                 ]
