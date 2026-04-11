@@ -1,12 +1,5 @@
-#!/usr/bin/env bash
-ws=$(i3-msg -t get_workspaces | jq -r '.[] | select(.focused).num')
-next=$((ws + 1))
-prev=$((ws - 1))
-
-[ $next -gt 10 ] && next=1
-[ $prev -lt 1 ] && prev=10
-
+#!/bin/sh
 case "$1" in
-  left) i3-msg workspace "$next" ;;
-  right) i3-msg workspace "$prev" ;;
+  left) i3-msg workspace next ;;
+  right) i3-msg workspace prev ;;
 esac
