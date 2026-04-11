@@ -1,49 +1,19 @@
 fastfetch
-eval "$(starship init bash)"
 GREY=$(tput setaf 242)
 RED=$(tput setaf 1)
 RESET=$(tput sgr0)
- 
-# cd ~/nixos && git add . && git commit -m "Automated commit" && git push
-# cd ~/.config && git add . && git commit -m "Automated commit" && git push
-# cd ~
-#
-#
-alias commit='cd ~/nixos && git add . && git commit -m "Automated commit" && git push && cd ~/.config && git add . && git commit -m "Automated commit" && git push && cd /home/user'
+xrandr --output eDP-1 --mode 1680x1050
+feh --bg-fill file:///home/user/Documents/wallpapers/pkrqze.png 
 alias ls='eza --icons'
 alias cat='bat'
-alias e='exit'
-alias .='cd ..'
-alias ..='cd ../../'
-alias ~='cd ~'
-alias home='cd ~'
-alias dl='cd ~/Downloads'
-alias cf='cd ~/.config'
-alias n='cd ~/nixos/'
 alias i3c=' nvim ~/.config/i3/config'
-alias wallpaper='cp -r ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/.local/share/wallpapers'
+alias wallpaper='cp -r ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/Documents/wallpapers'
 alias gu='git add .'
 alias gp='git push'
-alias f='nvim ~/nixos/flake.nix'
-alias c='nvim ~/nixos/configuration.nix'
-alias nixtest='sudo nixos-rebuild test'
-alias nixreboot='sudo nixos-rebuild switch --rollback'
-alias rb='sudo nixos-rebuild switch --flake .#nixos'
+alias nixos.rebuild='sudo nixos-rebuild switch --flake .#nixos'
 alias gens='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
 alias cg='sudo nix-collect-garbage'
 alias ns='nix-search'
-alias fks='flatpak kill com.github.KRTirtho.Spotube'
-alias fkd='flatpak kill com.discordapp.Discord'
 alias sn='shutdown now'
-# alias iotop='sudo iotop'
-alias clock='peaclock'
-alias logo='neofetch'
-alias mem='free -h'
-alias livefetch='fastfetch --dynamic-interval 500'
-alias fishy='asciiquarium'
-alias pipes='pipes-rs'
-alias pg='ping google.com'
 alias sf='superfile'
-alias b='sudo nvim ~/.bashrc'
-alias bt='systemd-analyze'
-alias sb='source ~/.bashrc'
+alias sa='systemd-analyze'

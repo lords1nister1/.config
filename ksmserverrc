@@ -2,4 +2,9 @@
 count=0
 
 [Session: saved at previous logout]
-count=0
+clientId1=10e169786f000177567185000000028740002
+count=1
+program1=/nix/store/cyf35slip48g6zrwqgkwi7q9aiadzpc0-discover-6.6.0/libexec/DiscoverNotifier
+restartCommand1=/nix/store/cyf35slip48g6zrwqgkwi7q9aiadzpc0-discover-6.6.0/libexec/DiscoverNotifier,-session,10e169786f000177567185000000028740002_1775672533_503454,-name,DiscoverNotifier
+restartStyleHint1=0
+userId1=user

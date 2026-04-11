@@ -1,26 +1,19 @@
 set $mod Mod4
 font pango:monospace 10
-
 floating_modifier $mod
 
 bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 bindsym $mod+d exec rofi -show drun
-bindsym $mod+c reload
 bindsym $mod+r restart
-bindsym $mod+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
-bindsym $mod+b exec flatpak run com.brave.Browser
-
-bindsym $mod+h focus left
-bindsym $mod+j focus down
-bindsym $mod+k focus up
-bindsym $mod+l focus right
-
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
-
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
+bindsym $mod+b exec brave
+bindsym $mod+Shift+b exec brave --incognito 
+bindsym $mod+e exec dolphin
+bindsym $mod+Left move left
+bindsym $mod+Down move down
+bindsym $mod+Up move up
+bindsym $mod+Right move right
 bindsym $mod+f fullscreen toggle
 bindsym $mod+space floating toggle
 
@@ -57,8 +50,8 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-bindsym XF86AudioRaiseVolume exec sh -c 'pamixer -i 5 && notify-send "Volume" "$(pamixer --get-volume)%"'
-bindsym XF86AudioLowerVolume exec sh -c 'pamixer -d 5 && notify-send "Volume" "$(pamixer --get-volume)%"'
+bindsym XF86AudioRaiseVolume exec sh -c 'pamixer -i 5 && dunstify -t 200 "Volume" "$(pamixer --get-volume)%"'
+bindsym XF86AudioLowerVolume exec sh -c 'pamixer -d 5 && dunstify -t 200 "Volume" "$(pamixer --get-volume)%"'
 bindsym XF86AudioMute exec sh -c 'pamixer -t && notify-send "Volume" "Mute toggled"'
 
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -71,22 +64,22 @@ bindsym XF86MonBrightnessDown exec ~/.config/i3/scripts/brightness-notify 10%-
 bindsym XF86KbdBrightnessUp exec ~/.config/i3/scripts/kbd-brightness-notify +10%
 bindsym XF86KbdBrightnessDown exec ~/.config/i3/scripts/kbd-brightness-notify 10%-
 
-bindsym Print exec --no-startup-id flameshot gui
+bindsym $mod+s exec --no-startup-id flameshot gui
 
+exec_always --no-startup-id flameshot
 exec_always --no-startup-id picom
 exec_always --no-startup-id dunst
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id xfce4-power-manager
-exec_always --no-startup-id xrandr --output eDP-1 --scale 1.5x1.5
-exec_always --no-startup-id feh --bg-fill /home/user/Documents/vge87p.jpg
+exec_always --no-startup-id xrandr --output eDP-1 --scale 1.1x1.1
 exec_always --no-startup-id libinput-gestures
 exec_always --no-startup-id xinput set-prop "bcm5974" "libinput Natural Scrolling Enabled" 1
-exec_always --no-startup-id xrandr --newmode "1680x1050_60.00" 146.25 1680 1784 1960 2240 1050 1053 1059 1089 -hsync +vsync
-exec_always --no-startup-id xrandr --addmode eDP-1 "1680x1050_60.00"
-exec_always --no-startup-id xrandr --output eDP-1 --mode "1680x1050_60.00"
-
-
-
+# exec_always --no-startup-id exec_always --no-startup-id xrandr --output eDP-1 --mode "1680x1050_60.00"
+exec_always --no-startup-id xrandr --output eDP-1 --mode 1680x1050
+exec_always --no-startup-id xset s off
+exec_always --no-startup-id xset -dpms
+exec_always --no-startup-id xset s noblank
+exec --no-startup-id kitty
 
 bar {
     status_command i3status

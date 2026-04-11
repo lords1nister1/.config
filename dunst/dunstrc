@@ -1,2 +1,4 @@
 [global]
+origin = bottom-center
+ignore_dbusclose = false
 notification_limit = 1
