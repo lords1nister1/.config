@@ -37,7 +37,6 @@ bindsym $mod+6 workspace number $ws6
 bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
@@ -48,17 +47,15 @@ bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
 
-bindsym XF86AudioRaiseVolume exec sh -c 'pamixer -i 5 && dunstify -t 200 "Volume" "$(pamixer --get-volume)%"'
-bindsym XF86AudioLowerVolume exec sh -c 'pamixer -d 5 && dunstify -t 200 "Volume" "$(pamixer --get-volume)%"'
-bindsym XF86AudioMute exec sh -c 'pamixer -t && notify-send "Volume" "Mute toggled"'
-
+bindsym $mod+t exec sh -c 'dunstify -t 500 "Battery" "$(upower -i $(upower -e | grep BAT) | awk -F": *" "/percentage/ {print \$2}")"'
+bindsym XF86AudioMute exec sh -c 'pamixer -t && dunstify -t 200 "Mute toggled"'
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioStop exec playerctl stop
-
+bindsym XF86AudioRaiseVolume exec ~/.config/i3/scripts/raiseVolume
+bindsym XF86AudioLowerVolume exec ~/.config/i3/scripts/lowerVolume
 bindsym XF86MonBrightnessUp exec ~/.config/i3/scripts/brightness-notify +10%
 bindsym XF86MonBrightnessDown exec ~/.config/i3/scripts/brightness-notify 10%-
 bindsym XF86KbdBrightnessUp exec ~/.config/i3/scripts/kbd-brightness-notify +10%
@@ -70,7 +67,6 @@ exec_always --no-startup-id flameshot
 exec_always --no-startup-id picom
 exec_always --no-startup-id dunst
 exec_always --no-startup-id nm-applet
-exec_always --no-startup-id xfce4-power-manager
 exec_always --no-startup-id xrandr --output eDP-1 --scale 1.1x1.1
 exec_always --no-startup-id libinput-gestures
 exec_always --no-startup-id xinput set-prop "bcm5974" "libinput Natural Scrolling Enabled" 1

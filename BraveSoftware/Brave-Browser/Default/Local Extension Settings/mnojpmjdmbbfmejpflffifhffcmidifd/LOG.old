@@ -1,47 +1,6 @@
-2026/04/11-13:31:49.909 1cf6 Reusing MANIFEST /home/user/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2026/04/11-13:31:49.909 1cf6 Recovering log #117
-2026/04/11-13:31:49.928 1cf6 Reusing old log /home/user/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000117.log 
-2026/04/11-13:34:51.598 1ced Level-0 table #121: started
-2026/04/11-13:34:51.629 1ced Level-0 table #121: 269444 bytes OK
-2026/04/11-13:34:51.641 1ced Delete type=0 #117
-2026/04/11-13:39:51.890 1ced Level-0 table #123: started
-2026/04/11-13:39:51.922 1ced Level-0 table #123: 269339 bytes OK
-2026/04/11-13:39:51.934 1ced Delete type=0 #120
-2026/04/11-13:39:51.936 1ced Compacting 4@0 + 1@1 files
-2026/04/11-13:39:51.968 1ced Generated table #124@0: 21 keys, 58002 bytes
-2026/04/11-13:39:51.968 1ced Compacted 4@0 + 1@1 files => 58002 bytes
-2026/04/11-13:39:51.979 1ced compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/11-13:39:51.979 1ced Delete type=2 #113
-2026/04/11-13:39:51.979 1ced Delete type=2 #121
-2026/04/11-13:39:51.979 1ced Delete type=2 #118
-2026/04/11-13:39:51.979 1ced Delete type=2 #115
-2026/04/11-13:39:51.979 1ced Delete type=2 #123
-2026/04/11-13:44:52.160 1ced Level-0 table #126: started
-2026/04/11-13:44:52.192 1ced Level-0 table #126: 269917 bytes OK
-2026/04/11-13:44:52.205 1ced Delete type=0 #122
-2026/04/11-13:49:52.443 1ced Level-0 table #128: started
-2026/04/11-13:49:52.475 1ced Level-0 table #128: 270110 bytes OK
-2026/04/11-13:49:52.487 1ced Delete type=0 #125
-2026/04/11-13:54:01.823 1ced Level-0 table #130: started
-2026/04/11-13:54:01.843 1ced Level-0 table #130: 271434 bytes OK
-2026/04/11-13:54:01.861 1ced Delete type=0 #127
-2026/04/11-13:59:53.011 1ced Compacting 3@0 + 1@1 files
-2026/04/11-13:59:53.044 1ced Generated table #131@0: 6 keys, 55171 bytes
-2026/04/11-13:59:53.045 1ced Compacted 3@0 + 1@1 files => 55171 bytes
-2026/04/11-13:59:53.056 1ced compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/11-13:59:53.057 1ced Delete type=2 #128
-2026/04/11-13:59:53.058 1ced Delete type=2 #130
-2026/04/11-13:59:53.058 1ced Delete type=2 #124
-2026/04/11-13:59:53.058 1ced Delete type=2 #126
-2026/04/11-14:03:49.386 1ced Level-0 table #133: started
-2026/04/11-14:03:49.400 1ced Level-0 table #133: 275911 bytes OK
-2026/04/11-14:03:49.411 1ced Delete type=0 #129
-2026/04/11-14:14:53.705 1ced Compacting 1@0 + 1@1 files
-2026/04/11-14:14:53.733 1ced Generated table #134@0: 15 keys, 57440 bytes
-2026/04/11-14:14:53.734 1ced Compacted 1@0 + 1@1 files => 57440 bytes
-2026/04/11-14:14:53.746 1ced compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/11-14:14:53.748 1ced Delete type=2 #133
-2026/04/11-14:14:53.748 1ced Delete type=2 #131
-2026/04/11-14:14:53.749 1ced Level-0 table #136: started
-2026/04/11-14:14:53.777 1ced Level-0 table #136: 273148 bytes OK
-2026/04/11-14:14:53.792 1ced Delete type=0 #132
+2026/04/20-18:39:02.247 23b7 Reusing MANIFEST /home/user/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2026/04/20-18:39:02.249 23b7 Recovering log #569
+2026/04/20-18:39:02.256 23b7 Reusing old log /home/user/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000569.log 
+2026/04/20-18:43:22.331 23b9 Level-0 table #573: started
+2026/04/20-18:43:22.347 23b9 Level-0 table #573: 363783 bytes OK
+2026/04/20-18:43:22.358 23b9 Delete type=0 #569

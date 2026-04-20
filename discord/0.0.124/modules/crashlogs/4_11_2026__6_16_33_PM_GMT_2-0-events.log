@@ -1,0 +1,75 @@
+4/11/2026, 6:16:33 PM GMT+2 0: 
+
+----------------------------------------------
+4/11/2026, 6:16:33 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.124"}, modulepath: /home/user/.config/discord/0.0.124/modules
+4/11/2026, 6:16:33 PM GMT+2 2: ✅ webContents.created web1 "index.html"
+4/11/2026, 6:16:33 PM GMT+2 3: ✅ window.created win1 "discord"
+4/11/2026, 6:16:33 PM GMT+2 4: ✅ webContents.did-finish-load web1
+4/11/2026, 6:16:48 PM GMT+2 5: ✅ webContents.created web2 ""
+4/11/2026, 6:16:48 PM GMT+2 6: ✅ window.created win2 "Discord"
+4/11/2026, 6:16:49 PM GMT+2 7: ✅ webContents.did-finish-load web2
+4/11/2026, 6:16:51 PM GMT+2 8: window.close win1
+4/11/2026, 6:16:51 PM GMT+2 9: webContents.destroyed web1
+4/11/2026, 6:16:51 PM GMT+2 10: window.closed win1
+4/11/2026, 6:24:42 PM GMT+2 11: window.close win2
+4/11/2026, 6:24:58 PM GMT+2 12: before-quit
+4/11/2026, 10:18:07 PM GMT+2 0: 
+
+----------------------------------------------
+4/11/2026, 10:18:07 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.124"}, modulepath: /home/user/.config/discord/0.0.124/modules
+4/11/2026, 10:18:07 PM GMT+2 2: ✅ webContents.created web1 ""
+4/11/2026, 10:18:07 PM GMT+2 3: ✅ window.created win1 "discord"
+4/11/2026, 10:18:07 PM GMT+2 4: ✅ webContents.did-finish-load web1
+4/11/2026, 10:18:07 PM GMT+2 5: ✅ webContents.created web2 ""
+4/11/2026, 10:18:07 PM GMT+2 6: ✅ window.created win2 "Discord"
+4/11/2026, 10:18:09 PM GMT+2 7: ✅ webContents.did-finish-load web2
+4/11/2026, 10:18:11 PM GMT+2 8: window.close win1
+4/11/2026, 10:18:11 PM GMT+2 9: webContents.destroyed web1
+4/11/2026, 10:18:11 PM GMT+2 10: window.closed win1
+4/11/2026, 10:30:38 PM GMT+2 11: window.close win2
+4/15/2026, 5:38:07 PM GMT+2 0: 
+
+----------------------------------------------
+4/15/2026, 5:38:07 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.124"}, modulepath: /home/user/.config/discord/0.0.124/modules
+4/15/2026, 5:38:07 PM GMT+2 2: ✅ webContents.created web1 ""
+4/15/2026, 5:38:07 PM GMT+2 3: ✅ window.created win1 "discord"
+4/15/2026, 5:38:07 PM GMT+2 4: ✅ webContents.did-finish-load web1
+4/15/2026, 5:38:11 PM GMT+2 5: ✅ webContents.created web2 ""
+4/15/2026, 5:38:11 PM GMT+2 6: ✅ window.created win2 "Discord"
+4/15/2026, 5:38:17 PM GMT+2 7: ✅ webContents.did-finish-load web2
+4/15/2026, 5:38:20 PM GMT+2 8: window.close win1
+4/15/2026, 5:38:20 PM GMT+2 9: webContents.destroyed web1
+4/15/2026, 5:38:20 PM GMT+2 10: window.closed win1
+4/15/2026, 5:51:05 PM GMT+2 11: window.close win2
+4/15/2026, 7:58:16 PM GMT+2 12: before-quit
+4/17/2026, 8:37:40 PM GMT+2 0: 
+
+----------------------------------------------
+4/17/2026, 8:37:40 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.124"}, modulepath: /home/user/.config/discord/0.0.124/modules
+4/17/2026, 8:37:40 PM GMT+2 2: ✅ webContents.created web1 ""
+4/17/2026, 8:37:40 PM GMT+2 3: ✅ window.created win1 "discord"
+4/17/2026, 8:37:40 PM GMT+2 4: ✅ webContents.did-finish-load web1
+4/17/2026, 8:37:41 PM GMT+2 5: ✅ webContents.created web2 ""
+4/17/2026, 8:37:41 PM GMT+2 6: ✅ window.created win2 "Discord"
+4/17/2026, 8:37:43 PM GMT+2 7: ✅ webContents.did-finish-load web2
+4/17/2026, 8:37:45 PM GMT+2 8: window.close win1
+4/17/2026, 8:37:45 PM GMT+2 9: webContents.destroyed web1
+4/17/2026, 8:37:45 PM GMT+2 10: window.closed win1
+4/17/2026, 8:46:08 PM GMT+2 11: window.close win2
+4/17/2026, 8:49:46 PM GMT+2 12: window.close win2
+4/17/2026, 8:58:05 PM GMT+2 13: window.close win2
+4/18/2026, 11:58:13 AM GMT+2 0: 
+
+----------------------------------------------
+4/18/2026, 11:58:13 AM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.124"}, modulepath: /home/user/.config/discord/0.0.124/modules
+4/18/2026, 11:58:13 AM GMT+2 2: ✅ webContents.created web1 ""
+4/18/2026, 11:58:13 AM GMT+2 3: ✅ window.created win1 "discord"
+4/18/2026, 11:58:13 AM GMT+2 4: ✅ webContents.did-finish-load web1
+4/18/2026, 11:58:13 AM GMT+2 5: ✅ webContents.created web2 ""
+4/18/2026, 11:58:13 AM GMT+2 6: ✅ window.created win2 "Discord"
+4/18/2026, 11:58:15 AM GMT+2 7: ✅ webContents.did-finish-load web2
+4/18/2026, 11:58:17 AM GMT+2 8: window.close win1
+4/18/2026, 11:58:17 AM GMT+2 9: webContents.destroyed web1
+4/18/2026, 11:58:17 AM GMT+2 10: window.closed win1
+4/18/2026, 12:01:40 PM GMT+2 11: window.close win2
+4/18/2026, 12:07:39 PM GMT+2 12: before-quit

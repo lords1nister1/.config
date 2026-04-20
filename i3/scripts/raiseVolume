@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+pamixer -i 5
+dunstify -t 200 "Volume" "$(pamixer --get-volume)%"
+
