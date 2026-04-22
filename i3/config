@@ -10,12 +10,12 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg e
 bindsym $mod+b exec brave
 bindsym $mod+Shift+b exec brave --incognito 
 bindsym $mod+e exec dolphin
-bindsym $mod+Left move left
 bindsym $mod+Down move down
 bindsym $mod+Up move up
-bindsym $mod+Right move right
 bindsym $mod+f fullscreen toggle
 bindsym $mod+space floating toggle
+bindsym $mod+Left exec ~/.config/i3/scripts/ws_left
+bindsym $mod+Right exec ~/.config/i3/scripts/ws_right
 
 set $ws1 "1"
 set $ws2 "2"
@@ -62,7 +62,6 @@ bindsym XF86KbdBrightnessUp exec ~/.config/i3/scripts/kbd-brightness-notify +10%
 bindsym XF86KbdBrightnessDown exec ~/.config/i3/scripts/kbd-brightness-notify 10%-
 
 bindsym $mod+s exec --no-startup-id flameshot gui
-
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id picom
 exec_always --no-startup-id dunst

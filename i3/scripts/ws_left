@@ -1,0 +1,7 @@
+#!/bin/sh
+current=$(i3-msg -t get_workspaces | jq -r 'map(select(.focused)) | .[0].num')
+left=$((current - 1))
+if [ $left -lt 1 ]; then
+    left=1
+fi
+i3-msg workspace number $left

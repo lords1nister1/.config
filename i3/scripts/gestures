@@ -1,5 +1,11 @@
 #!/bin/sh
+current=$(i3-msg -t get_workspaces | jq -r 'map(select(.focused)) | .[0].num')
+next=$((current + 1))
+prev=$((current - 1))
+if [ $prev -lt 1 ]; then
+    prev=1
+fi
 case "$1" in
-  left) i3-msg workspace next ;;
-  right) i3-msg workspace prev ;;
+  left) i3-msg workspace number $next ;;
+  right) i3-msg workspace number $prev ;;
 esac
