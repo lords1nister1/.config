@@ -1,12 +1,21 @@
-2026/04/22-20:48:14.882 591 Reusing MANIFEST /home/user/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/22-20:48:14.882 591 Recovering log #44
-2026/04/22-20:48:14.894 591 Reusing old log /home/user/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000044.log 
-2026/04/22-20:48:30.415 59c Level-0 table #49: started
-2026/04/22-20:48:30.480 59c Level-0 table #49: 3233807 bytes OK
-2026/04/22-20:48:30.494 59c Delete type=0 #44
-2026/04/22-20:48:47.840 593 Compacting 1@1 + 1@2 files
-2026/04/22-20:48:47.870 593 Generated table #50@1: 170 keys, 531450 bytes
-2026/04/22-20:48:47.871 593 Compacted 1@1 + 1@2 files => 531450 bytes
-2026/04/22-20:48:47.883 593 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/04/22-20:48:47.884 593 Delete type=2 #46
-2026/04/22-20:48:47.885 593 Delete type=2 #49
+2026/04/29-20:16:55.946 647 Reusing MANIFEST /home/user/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/29-20:16:55.947 647 Recovering log #65
+2026/04/29-20:16:55.956 647 Reusing old log /home/user/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000065.log 
+2026/04/29-20:16:59.956 652 Level-0 table #70: started
+2026/04/29-20:17:00.006 652 Level-0 table #70: 3232534 bytes OK
+2026/04/29-20:17:00.018 652 Delete type=0 #65
+2026/04/29-20:17:07.362 650 Compacting 1@1 + 1@2 files
+2026/04/29-20:17:07.397 650 Generated table #71@1: 140 keys, 335902 bytes
+2026/04/29-20:17:07.398 650 Compacted 1@1 + 1@2 files => 335902 bytes
+2026/04/29-20:17:07.409 650 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/29-20:17:07.409 650 Delete type=2 #67
+2026/04/29-20:17:07.410 650 Delete type=2 #70
+2026/04/29-20:17:14.936 649 Level-0 table #73: started
+2026/04/29-20:17:14.997 649 Level-0 table #73: 3227113 bytes OK
+2026/04/29-20:17:15.011 649 Delete type=0 #69
+2026/04/29-20:17:44.551 649 Compacting 1@1 + 1@2 files
+2026/04/29-20:17:44.649 649 Generated table #74@1: 277 keys, 1110184 bytes
+2026/04/29-20:17:44.650 649 Compacted 1@1 + 1@2 files => 1110184 bytes
+2026/04/29-20:17:44.663 649 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/29-20:17:44.664 649 Delete type=2 #73
+2026/04/29-20:17:44.664 649 Delete type=2 #71

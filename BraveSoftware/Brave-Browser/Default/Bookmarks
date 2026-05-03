@@ -1,30 +1,8 @@
 {
-   "checksum": "31a6d4ddaf9b1fe97e77597dc4e10da2",
+   "checksum": "9cd25ec5d8f72cf5200d1a22b5eaf249",
    "roots": {
       "bookmark_bar": {
          "children": [ {
-            "date_added": "13420319851046907",
-            "date_last_used": "0",
-            "guid": "a9ac33e3-6c05-49ea-82d8-ee8397c4720e",
-            "id": "5",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": ".config",
-            "type": "url",
-            "url": "https://github.com/lords1nister1/.config"
-         }, {
-            "date_added": "13420319861978014",
-            "date_last_used": "0",
-            "guid": "ace3c9eb-6fa5-4b94-bc92-5f2a6a690a47",
-            "id": "6",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "nixos",
-            "type": "url",
-            "url": "https://github.com/lords1nister1/lords1nister-nixos"
-         }, {
             "date_added": "13420741010738605",
             "date_last_used": "0",
             "guid": "eaa7916c-924b-4da6-80a9-690fe397e72d",
