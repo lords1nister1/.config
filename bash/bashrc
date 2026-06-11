@@ -3,10 +3,8 @@ GREY=$(tput setaf 242)
 RED=$(tput setaf 1)
 RESET=$(tput sgr0)
 xrandr --output eDP-1 --mode 1680x1050
-feh --bg-fill file:///home/user/Documents/wallpapers/pkrqze.png 
+feh --bg-fill file:///home/user/Documents/wallpapers/download/vql3j3.png
 alias ls='eza --icons'
-alias cat='bat'
-alias i3c=' nvim ~/.config/i3/config'
 alias wallpaper='cp -r ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/Documents/wallpapers'
 alias gu='git add .'
 alias gp='git push'

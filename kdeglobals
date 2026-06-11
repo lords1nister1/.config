@@ -159,6 +159,9 @@ Sort reversed=false
 Speedbar Width=140
 View Style=DetailTree
 
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
 [Sounds]
 Enable=false
 Theme=

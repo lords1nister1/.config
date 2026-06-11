@@ -61,6 +61,7 @@ bindsym XF86MonBrightnessDown exec ~/.config/i3/scripts/brightness-notify 10%-
 bindsym XF86KbdBrightnessUp exec ~/.config/i3/scripts/kbd-brightness-notify +10%
 bindsym XF86KbdBrightnessDown exec ~/.config/i3/scripts/kbd-brightness-notify 10%-
 
+for_window [class="kitty"] floating enable
 bindsym $mod+s exec --no-startup-id flameshot gui
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id picom
@@ -79,6 +80,16 @@ exec --no-startup-id kitty
 bar {
     status_command i3status
     position top
-    mode dock
+    mode hide
+    modifier Shift 
     workspace_buttons yes
+    colors {
+        statusline #222222
+        separator  #CCCCCC
+        focused_workspace     #CCCCCC   #EAEAEA   #000000
+        active_workspace      #EAEAEA   #FFFFFF   #333333
+        inactive_workspace    #EAEAEA   #FFFFFF   #333333
+        urgent_workspace      #FF0000   #FF0000   #FFFFFF
+        binding_mode          #FF0000   #FF0000   #FFFFFF
+    }
 }

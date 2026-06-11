@@ -1,30 +1,8 @@
 {
-   "checksum": "31a6d4ddaf9b1fe97e77597dc4e10da2",
+   "checksum": "578c9a6d69e365b88a04dbc31bf48013",
    "roots": {
       "bookmark_bar": {
          "children": [ {
-            "date_added": "13420319851046907",
-            "date_last_used": "0",
-            "guid": "a9ac33e3-6c05-49ea-82d8-ee8397c4720e",
-            "id": "5",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": ".config",
-            "type": "url",
-            "url": "https://github.com/lords1nister1/.config"
-         }, {
-            "date_added": "13420319861978014",
-            "date_last_used": "0",
-            "guid": "ace3c9eb-6fa5-4b94-bc92-5f2a6a690a47",
-            "id": "6",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "nixos",
-            "type": "url",
-            "url": "https://github.com/lords1nister1/lords1nister-nixos"
-         }, {
             "date_added": "13420741010738605",
             "date_last_used": "0",
             "guid": "eaa7916c-924b-4da6-80a9-690fe397e72d",
@@ -35,10 +13,21 @@
             "name": "nixsearch",
             "type": "url",
             "url": "https://search.nixos.org/packages"
+         }, {
+            "date_added": "13424807830917749",
+            "date_last_used": "0",
+            "guid": "02be664d-6b03-44f4-9d12-bb9b8a487f68",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(5) Can I Get This Seized Vintage Yamaha Running? - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=CQjlnMmFbQM"
          } ],
          "date_added": "13420319812593706",
          "date_last_used": "0",
-         "date_modified": "13420741010738605",
+         "date_modified": "13424807830917749",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",
