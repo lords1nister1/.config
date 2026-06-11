@@ -80,8 +80,8 @@ exec --no-startup-id kitty
 bar {
     status_command i3status
     position top
-    mode hide
-    modifier Shift 
+    mode dock
+# modifier Shift 
     workspace_buttons yes
     colors {
         statusline #222222
