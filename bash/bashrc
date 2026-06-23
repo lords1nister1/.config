@@ -4,14 +4,3 @@ RED=$(tput setaf 1)
 RESET=$(tput sgr0)
 xrandr --output eDP-1 --mode 1680x1050
 feh --bg-fill file:///home/user/Documents/wallpapers/download/vql3j3.png
-alias ls='eza --icons'
-alias wallpaper='cp -r ~/.var/app/com.ktechpit.wonderwall/data/ktechpit/WonderWall/download/ ~/Documents/wallpapers'
-alias gu='git add .'
-alias gp='git push'
-alias rb='sudo nixos-rebuild switch --flake .#nixos'
-alias gens='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
-alias cg='sudo nix-collect-garbage'
-alias ns='nix-search'
-alias sn='shutdown now'
-alias sf='superfile'
-alias n='cd ~/nixos'

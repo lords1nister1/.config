@@ -81,11 +81,15 @@ bar {
     status_command i3status
     position top
     mode dock
-# modifier Shift 
+   # modifier Shift 
     workspace_buttons yes
     colors {
-        statusline #222222
+        background #00000
+
+        statusline #FFFFFF
+        
         separator  #CCCCCC
+        
         focused_workspace     #CCCCCC   #EAEAEA   #000000
         active_workspace      #EAEAEA   #FFFFFF   #333333
         inactive_workspace    #EAEAEA   #FFFFFF   #333333

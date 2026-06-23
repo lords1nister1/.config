@@ -1,3 +1,0 @@
-{"timestamp":3634475,"category":"bounce.tracking.protection","name":"purge_action","extra":{"success":"true","site_host":"chest.com","bounce_time":"1781098804","require_stateful_bounces":"false","glean_timestamp":"1781115985126","is_dry_run":"true"},"execution_counter":21}
-{"timestamp":93170,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-06-11T13:44+02:00","glean_timestamp":"1781178267988"},"execution_counter":22}
-{"timestamp":878507,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-06-11T13:57+02:00","glean_timestamp":"1781179049575"},"execution_counter":23}

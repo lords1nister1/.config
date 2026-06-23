@@ -1,4 +1,4 @@
-# Tor state file last generated on 2026-06-08 22:11:15 local time
+# Tor state file last generated on 2026-06-11 17:20:15 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
@@ -12,24 +12,24 @@ CircuitBuildTimeBin 235 8
 CircuitBuildTimeBin 245 11
 CircuitBuildTimeBin 255 13
 CircuitBuildTimeBin 265 14
-CircuitBuildTimeBin 275 17
+CircuitBuildTimeBin 275 18
 CircuitBuildTimeBin 285 9
 CircuitBuildTimeBin 295 9
-CircuitBuildTimeBin 305 17
+CircuitBuildTimeBin 305 18
 CircuitBuildTimeBin 315 15
 CircuitBuildTimeBin 325 10
-CircuitBuildTimeBin 335 10
+CircuitBuildTimeBin 335 11
 CircuitBuildTimeBin 345 10
 CircuitBuildTimeBin 355 10
 CircuitBuildTimeBin 365 11
 CircuitBuildTimeBin 375 7
-CircuitBuildTimeBin 385 5
+CircuitBuildTimeBin 385 6
 CircuitBuildTimeBin 395 8
 CircuitBuildTimeBin 405 1
 CircuitBuildTimeBin 415 1
-CircuitBuildTimeBin 425 10
+CircuitBuildTimeBin 425 11
 CircuitBuildTimeBin 435 9
-CircuitBuildTimeBin 445 4
+CircuitBuildTimeBin 445 5
 CircuitBuildTimeBin 455 8
 CircuitBuildTimeBin 465 5
 CircuitBuildTimeBin 475 5
@@ -49,7 +49,7 @@ CircuitBuildTimeBin 605 5
 CircuitBuildTimeBin 615 11
 CircuitBuildTimeBin 625 7
 CircuitBuildTimeBin 635 8
-CircuitBuildTimeBin 645 3
+CircuitBuildTimeBin 645 5
 CircuitBuildTimeBin 655 8
 CircuitBuildTimeBin 665 4
 CircuitBuildTimeBin 675 4
@@ -59,16 +59,16 @@ CircuitBuildTimeBin 705 4
 CircuitBuildTimeBin 715 12
 CircuitBuildTimeBin 725 9
 CircuitBuildTimeBin 735 4
-CircuitBuildTimeBin 745 4
+CircuitBuildTimeBin 745 5
 CircuitBuildTimeBin 755 9
 CircuitBuildTimeBin 765 5
 CircuitBuildTimeBin 775 8
 CircuitBuildTimeBin 785 8
-CircuitBuildTimeBin 795 6
+CircuitBuildTimeBin 795 7
 CircuitBuildTimeBin 805 15
-CircuitBuildTimeBin 815 4
+CircuitBuildTimeBin 815 5
 CircuitBuildTimeBin 825 13
-CircuitBuildTimeBin 835 8
+CircuitBuildTimeBin 835 9
 CircuitBuildTimeBin 845 6
 CircuitBuildTimeBin 855 8
 CircuitBuildTimeBin 865 7
@@ -82,11 +82,11 @@ CircuitBuildTimeBin 935 4
 CircuitBuildTimeBin 945 6
 CircuitBuildTimeBin 955 5
 CircuitBuildTimeBin 965 3
-CircuitBuildTimeBin 975 4
+CircuitBuildTimeBin 975 5
 CircuitBuildTimeBin 985 5
 CircuitBuildTimeBin 995 3
 CircuitBuildTimeBin 1005 4
-CircuitBuildTimeBin 1015 8
+CircuitBuildTimeBin 1015 9
 CircuitBuildTimeBin 1025 7
 CircuitBuildTimeBin 1035 5
 CircuitBuildTimeBin 1045 4
@@ -141,8 +141,8 @@ CircuitBuildTimeBin 19105 1
 CircuitBuildTimeBin 23425 1
 CircuitBuildAbandonedCount 24
 Dormant 0
-Guard in=default rsa_id=23FB753C43FCA6D56157291F40C055B2DBB01D4C nickname=yungquapo sampled_on=2026-04-02T05:29:20 sampled_idx=0 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-03-27T03:53:09 confirmed_idx=1 pb_use_attempts=15.000000 pb_use_successes=15.000000 pb_circ_attempts=172.000000 pb_circ_successes=167.000000 pb_successful_circuits_closed=167.000000 pb_timeouts=8.000000
-Guard in=default rsa_id=5C124A27FFD658CB76165718DABFFD4093F5C827 nickname=Teuntje sampled_on=2026-04-06T11:14:24 sampled_idx=1 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-03-27T23:36:18 confirmed_idx=0 pb_use_attempts=11.000000 pb_use_successes=11.000000 pb_circ_attempts=111.000000 pb_circ_successes=108.000000 pb_successful_circuits_closed=107.000000 pb_collapsed_circuits=1.000000 pb_timeouts=1.000000
+Guard in=default rsa_id=23FB753C43FCA6D56157291F40C055B2DBB01D4C nickname=yungquapo sampled_on=2026-04-02T05:29:20 sampled_idx=0 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-03-27T03:53:09 confirmed_idx=1 pb_use_attempts=15.000000 pb_use_successes=15.000000 pb_circ_attempts=174.000000 pb_circ_successes=169.000000 pb_successful_circuits_closed=169.000000 pb_timeouts=8.000000
+Guard in=default rsa_id=5C124A27FFD658CB76165718DABFFD4093F5C827 nickname=Teuntje sampled_on=2026-04-06T11:14:24 sampled_idx=1 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-03-27T23:36:18 confirmed_idx=0 pb_use_attempts=12.000000 pb_use_successes=12.000000 pb_circ_attempts=113.000000 pb_circ_successes=110.000000 pb_successful_circuits_closed=109.000000 pb_collapsed_circuits=1.000000 pb_timeouts=1.000000
 Guard in=default rsa_id=0EA859733751F8E8CECD70E33C9994BB7A04AC10 nickname=prsv sampled_on=2026-03-27T10:27:14 sampled_idx=2 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-04-12T01:50:16 confirmed_idx=2 pb_use_attempts=2.000000 pb_use_successes=2.000000 pb_circ_attempts=30.000000 pb_circ_successes=30.000000 pb_successful_circuits_closed=24.000000 pb_collapsed_circuits=6.000000
 Guard in=default rsa_id=91EE3488AB5271FA998BCE851D01A2608FAC0E61 nickname=AnotherTorNode0602 sampled_on=2026-04-01T01:45:11 sampled_idx=3 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-05-31T17:30:43 confirmed_idx=8
 Guard in=default rsa_id=AC633C90E126E0BCA96F14ECE5D222B586FA0D56 nickname=SODrelay sampled_on=2026-04-05T20:04:08 sampled_idx=4 sampled_by=0.4.9.5 listed=1 confirmed_on=2026-05-29T03:27:20 confirmed_idx=7
@@ -166,6 +166,6 @@ Guard in=default rsa_id=2EB3C230180694A1E848001E20F36F76A2287039 nickname=Alasto
 Guard in=default rsa_id=F6CA925CDCD1B12F693A4B6EC79EA914DCDC9800 nickname=ForPrivacyNET sampled_on=2026-04-24T11:10:21 sampled_idx=22 sampled_by=0.4.9.6 listed=1
 Guard in=default rsa_id=FFDB4690BF37A13C61522A6961BA40C167307814 nickname=jim sampled_on=2026-04-19T05:50:39 sampled_idx=23 sampled_by=0.4.9.6 listed=1
 Guard in=default rsa_id=54CC34EE7EE45EC335C7E24CC3EBC5547B7D5229 nickname=AppenzellInnerrhod sampled_on=2026-04-21T16:10:10 sampled_idx=24 sampled_by=0.4.9.6 listed=1
-LastWritten 2026-06-08 20:11:15
+LastWritten 2026-06-11 15:20:15
 TorVersion Tor 0.4.9.8
-TotalBuildTimes 746
+TotalBuildTimes 760
